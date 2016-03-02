@@ -61,7 +61,7 @@ Developer @GA in NYC
     /* Center the container */
     
     .container {
-        max-width: 960px;
+        width: 960px;
         margin: 0 auto;
     }
     .logo {
@@ -282,6 +282,9 @@ Developer @GA in NYC
     }
 
     @media only screen and (max-width: 786px) {
+        .container{
+            max-width: 600px;
+        }
         header nav ul {
             display: none;
         }
@@ -297,7 +300,7 @@ Developer @GA in NYC
             display: inline-block;
             color: white;
             padding: 2px;
-            background-color: blue;
+            background-color: #033048;
         }
         #hero h2 {
             font-size: 2em;
@@ -308,4 +311,42 @@ Developer @GA in NYC
         #hero{
             height: 400px;
         }
+
+    #benefits {
+        padding: 20px 0 40px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    #benefits p,
+    #benefits ul {
+        max-width: 600px;
+        font-size: 16px;
+    }
+    #benefits ul {
+        list-style: disc;
+        margin: 15px 0 0 40px;
+    }        
+    #testimonial {
+        padding: 35px 0 35px;
+        color: #fff;
+    }
+    #testimonial blockquote {
+        font-size: 16px
+    }
+    footer {
+        padding: 32px 0 22px;
+    }
+    footer .logo {
+        margin-bottom: 34px;
+    }
+    footer ul li {
+        margin: 0 13px 37px;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
     }
